@@ -1,6 +1,7 @@
-'''mermaid
-graph td
-
-  A[test]
-
-'''
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
