@@ -1,4 +1,4 @@
-''''mermaid
+```mermaid
 flowchart TD
     A((Start GUI)) -->B
     B{User}
@@ -16,5 +16,5 @@ flowchart TD
     J-->|No|B
     J-->|Yes|I((End))
 
-''''
+```
 
