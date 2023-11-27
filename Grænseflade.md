@@ -1,7 +1,9 @@
-```mermaid
-  graph TD
-  Bruger -->|USER info| GUI
-  DB -->|USER info| Bruger
-  Bruger -->|BODY INFO| Beregn
-  Beregn -->|Anbefalet Kcal indtag| Bruger
+```markdown
+| Source  | Action                   | Target |
+|---------|---------------------------|--------|
+| Bruger  | OUTPUT                    | GUI    |
+| DB      | USER info                 | Bruger |
+| Bruger  | BODY INFO                 | Beregn |
+| Beregn  | Anbefalet Kcal indtag     | Bruger |
+
 ```
