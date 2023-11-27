@@ -1,11 +1,20 @@
-| Source  | Action                   | Target |
-|---------|---------------------------|--------|
-| Bruger  | OUTPUT                    | GUI    |
-| DB      | USER info                 | Bruger |
-| Bruger  | BODY INFO                 | Beregn |
-| Beregn  | Anbefalet Kcal indtag     | Bruger |
+|         |   Name |  BD  |  Height   |  Weigth   |  Age  |  AMR   |  Activity   | Gender  |
+|---------|--------|--------|--------|--------|--------|--------|--------|--------|
+| User    |    x    |   x     |  x      |    x    |    x    |   x     |   x     |    x    |
+| body    |        |        |   x     |    x    |   x     |        |   x     |  x      |
 
-```markdown
+```mermaid
+
+graph
+  U[User]
+  G[GUI]
+  D[DB]
+  C[Calculate]
+
+  U --> |user dict| G
+  U --> |user dict| D
+  U --> |body dict| C
+  
 
 
 ```
